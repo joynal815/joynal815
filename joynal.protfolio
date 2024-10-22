@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        header {
+            background: #12d00f;
+            color: #102bda;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav ul {
+            list-style: none;
+            text-align: center;
+            padding: 10px;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #21ce55;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        section p {
+            max-width: 600px;
+            margin: 0 auto 20px;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .projects .project {
+            background: #f4f4f4;
+            margin: 15px;
+            padding: 20px;
+            width: 300px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .projects .project img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .projects .project h3 {
+            margin: 15px 0;
+        }
+        footer {
+            background: #12f225;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body style="background-color: rgba(229, 247, 98, 0.082);">
+
+    <header>
+        <h1>Md Joynal Hossain</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi this Joynal Hossain.I'm a passionate web developer with experience in creating responsive and dynamic websites. My goal is to deliver projects that are both visually appealing and highly functional.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="https://www.1800flowers.com/_next/image?url=https%3A%2F%2Fimages.contentstack.io%2Fv3%2Fassets%2Fbltcedd8dbd5891265b%2Fblt682575f35cf2888d%2F6668cee126c2a688bd1aa8b1%2FBirthday-Flowers-Colors.jpg&w=3840&q=75" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>A description of this amazing project. It showcases my skills in front-end development using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSupoVWGMJHs6lxSziyITGn689NzqwobVgShQ&s" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>This is My first coding. Built using frameworks like React and Bootstrap to provide an intuitive UI/UX experience.</p>
+            </div>
+            <div class="project">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSupoVWGMJHs6lxSziyITGn689NzqwobVgShQ&s" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>This is Joynal's firt project.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to work together, feel free to reach out! And would you like this please contact me </p>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio | Designed by Joynal Hossain</p>
+    </footer>
+
+</body>
+</html>
